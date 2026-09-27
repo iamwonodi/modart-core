@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket       = "core-development-tfstate" # <project>-development-tfstate: scripts/init-project.sh sets it
+    bucket       = "modart-development-tfstate" # <project>-development-tfstate: scripts/init-project.sh sets it
     key          = "core/terraform.tfstate"   # Folder path inside your bucket
     region       = "af-south-1"               # backend blocks cannot use variables: scripts/init-project.sh sets it with aws_region
     encrypt      = true                       # Forces encryption on upload

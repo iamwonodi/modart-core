@@ -1,3 +1,5 @@
 {
-  "environments": ["development", "staging", "production"]
+  "environments": [
+    "development"
+  ]
 }

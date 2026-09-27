@@ -1,9 +1,9 @@
-project_name = "core"
+project_name = "modart"
 
 aws_region = "af-south-1"
 
-domain_name    = "CHANGE_ME"
-private_domain = "CHANGE_ME"
+domain_name    = "dev.modart.app"
+private_domain = "dev.modart.app"
 
 # Development churns fastest and has the least need for historical
 # retention -- matches this environment's original hardcoded values before
