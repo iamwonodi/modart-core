@@ -1,0 +1,5 @@
+{
+  "environment": "development",
+  "core_deploy_role_arn": "arn:aws:iam::636487156059:role/modart-development-github-actions-core-deploy-role",
+  "service_role_arns": {}
+}
