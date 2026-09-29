@@ -94,3 +94,13 @@ nat_type = "instance"
 # Monthly cost budget for this account, in US dollars. Alerts go to the
 # BUDGET_ALERT_EMAILS secret's addresses (local-config/development.secrets.env).
 monthly_budget_usd = 100
+
+# The database engines repository's role (modart-database-engines).
+database_engines_repository          = "iamwonodi/modart-database-engines"
+database_engines_repository_owner_id = "247262366"
+database_engines_repository_id       = "1395005895"
+
+# The team tools repository's role (modart-team-tools).
+team_tools_repository          = "iamwonodi/modart-team-tools"
+team_tools_repository_owner_id = "247262366"
+team_tools_repository_id       = "1395057367"
