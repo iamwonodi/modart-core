@@ -1,1 +1,16 @@
-{}
+{
+  "iamwonodi/modart-web-infra": {
+    "service_name": "web",
+    "kind": "infra",
+    "tier": "private",
+    "owner_id": "247262366",
+    "repository_id": "1395067098"
+  },
+  "iamwonodi/modart-web-app": {
+    "service_name": "web",
+    "kind": "app",
+    "tier": "private",
+    "owner_id": "247262366",
+    "repository_id": "1395069639"
+  }
+}
