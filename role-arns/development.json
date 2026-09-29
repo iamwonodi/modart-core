@@ -1,5 +1,10 @@
 {
   "environment": "development",
   "core_deploy_role_arn": "arn:aws:iam::636487156059:role/modart-development-github-actions-core-deploy-role",
-  "service_role_arns": {}
+  "service_role_arns": {
+    "iamwonodi/modart-database-engines": "arn:aws:iam::636487156059:role/github-actions-iamwonodi-modart-database-engines-role",
+    "iamwonodi/modart-team-tools": "arn:aws:iam::636487156059:role/github-actions-iamwonodi-modart-team-tools-role",
+    "iamwonodi/modart-web-app": "arn:aws:iam::636487156059:role/github-actions-iamwonodi-modart-web-app-role",
+    "iamwonodi/modart-web-infra": "arn:aws:iam::636487156059:role/github-actions-iamwonodi-modart-web-infra-role"
+  }
 }
